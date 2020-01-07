@@ -1,0 +1,271 @@
+/*タブレット用のCSSだよ2*/
+
+@media print, screen and (max-width:1200px) and (min-width:750px){
+
+body {
+font-family: Arial, Helvetica, sans-serif,エルマー;
+font-size: 30px;
+color : #535353;
+
+
+background-image: url(img/background02.jpg);
+background-attachment: fixed;
+
+scrollbar-face-color:#ff9999;
+scrollbar-arrow-color:#ffffff;
+scrollbar-track-color:#ffcc66;
+scrollbar-highlight-color:#ff9999;
+scrollbar-shadow-color:#ff9999;
+scrollbar-3dlight-color:#000000;
+scrollbar-darkshadow-color:#000000;
+}
+
+.index {/*題名*/
+text-align : center;
+}
+
+#contents {
+text-align : center;
+    display: table;
+    table-layout: fixed;
+    width: 95%;
+    margin: 10 auto;
+    padding: 10 30px;
+    box-sizing: border-box;
+}
+
+.first {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.first a{
+
+width:90px;
+height:120px;
+overflow : hidden;
+float:left;
+}
+.first img{
+max-width: 90px;
+border: none;
+}
+.first a:hover img{
+margin-top: -120px;
+}
+
+
+.schedule {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.schedule a{
+
+width:90px;
+height:120px;
+overflow : hidden;
+float:left;
+}
+.schedule img{
+max-width: 90px;
+border: none;
+}
+.schedule a:hover img{
+margin-top: -120px;
+}
+
+.intro {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.intro a{
+
+width:90px;
+height:120px;
+overflow : hidden;
+float:left;
+}
+.intro img{
+max-width: 90px;
+border: none;
+}
+.intro a:hover img{
+margin-top: -120px;
+}
+
+
+.twitter {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.twitter a{
+
+width:90px;
+height:120px;
+overflow : hidden;
+float:left;
+}
+.twitter img{
+max-width: 90px;
+border: none;
+}
+.twitter a:hover img{
+margin-top: -120px;
+}
+
+
+.bbs {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.bbs a{
+
+width:90px;
+height:120px;
+overflow : hidden;
+float:left;
+}
+.bbs img{
+max-width: 90px;
+border: none;
+}
+.bbs a:hover img{
+margin-top: -120px;
+}
+
+.album {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.album a{
+
+width:90px;
+height:120px;
+overflow : hidden;
+float:left;
+}
+.album img{
+max-width: 90px;
+border: none;
+}
+.album a:hover img{
+margin-top: -120px;
+}
+
+.link {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.link a{
+
+width:90px;
+height:120px;
+overflow : hidden;
+float:left;
+}
+.link img{
+max-width: 90px;
+border: none;
+}
+.link a:hover img{
+margin-top: -120px;
+}
+
+.new {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.new a{
+
+width:90px;
+height:120px;
+overflow : hidden;
+float:left;
+}
+.new img{
+max-width: 90px;
+border: none;
+}
+.new a:hover img{
+margin-top: -120px;
+}
+
+
+.main{
+padding: 1% 2% 2% 2%;
+background-color: #FFFFFF;
+position: relative;
+margin-top: 15%;
+margin-left: 10%;
+margin-right: 10%;
+height: 70%;  
+overflow: auto;  
+border: solid 1px #5a3e50;
+}
+
+.no_border {
+border-style:none;
+}
+
+
+a:link {
+color: #C2874F;
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+color: #C2874F;
+}
+a:hover {
+background-color:#f3dfd4;
+color: #C2874F;
+}
+
+
+table.aibo1pon {border-collapse:collapse;}
+td.left{border:10px solid #ffffff; font-size: 25px; width:300px; text-align:center; background-color: #ffebf5}
+td.right{border:50px solid #ffffff; font-size: 25px; width:1000px; text-align:left;}
+
+table.aibo1pon_2 {border-collapse:collapse;}
+td.left_2{border:3px solid #ffffff; font-size: 25px;
+ width:90px; text-align:center; background-color:#e7e7eb;}
+td.right_2{border:3px solid #ffffff; font-size: 25px; width:1000px; text-align:left;}
+
+table.aibo1pon_3 {border-collapse:collapse;}
+td.left_3{border:3px solid #ffffff; font-size: 25px; width:60px; height:30px; text-align:center; background-color:#e7e7eb;}
+td.right_3{border:3px solid #ffffff; font-size: 25px; width:180px; height:30px; text-align:left;}
+
+table.aibo1pon_4 {border-collapse:collapse;}
+td.left_4{border:3px solid #ffffff; font-size: 25px; width:120px; height:30px; text-align:center; background-color:#e7e7eb;}
+td.right_4{border:3px solid #ffffff; font-size: 25px; width:120px; text-align:left;}
+
+table.aibo1pon_5 {border-collapse:collapse;}
+td.left_5{border:3px solid #ffffff; font-size: 25px; width:130px; height:30px; text-align:center; background-color:#e7e7eb;}
+td.right_5{border:3px solid #ffffff; font-size: 25px; width:400px; text-align:left;}
+
+
+
+}
