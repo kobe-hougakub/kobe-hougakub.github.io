@@ -1,0 +1,276 @@
+/*スマホ用のCS*/
+
+
+@media print, screen and (max-width:750px){
+body {
+font-family: Arial, Helvetica, sans-serif,エルマー;
+font-size: 1px;
+color : #535353;
+
+
+background-image: url(img/background02.jpg);
+background-attachment: fixed;
+
+scrollbar-face-color:#ff9999;
+scrollbar-arrow-color:#ffffff;
+scrollbar-track-color:#ffcc66;
+scrollbar-highlight-color:#ff9999;
+scrollbar-shadow-color:#ff9999;
+scrollbar-3dlight-color:#000000;
+scrollbar-darkshadow-color:#000000;
+}
+
+.main{
+font-size: 15px;
+padding: 1% 2% 2% 2%;
+background-color: #FFFFFF;
+position: relative;
+margin-top:47%;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 3%;
+height: 58%;
+overflow: auto;  
+border: solid 1px #5a3e50;
+}
+
+.index {/*題名*/
+font-size: 1px;
+text-align : center;
+
+}
+.index img{/*題名*/
+width: 80%;
+}
+
+
+.first{
+margin-left: 6%;
+margin-bottom: 5%;
+text-align : center;
+}
+
+.first a{
+width:75px;
+height:60px;
+overflow : hidden;
+float:left;
+}
+.first img{
+max-width: 45px;
+border: none;
+}
+.first a:hover img{
+margin-top: -60px;
+}
+
+
+.schedule{
+margin-left: 6%;
+text-align : center;
+margin-bottom: 5%;
+}
+
+.schedule a{
+
+margin :auto;
+width:75px;
+height:60px;
+overflow : hidden;
+float:left;
+}
+.schedule img{
+max-width: 45px;
+border: none;
+}
+.schedule a:hover img{
+margin-top: -60px;
+}
+.intro{
+margin-left: 6%;
+text-align : center;
+margin-bottom: 5%;
+
+}
+
+.intro a{
+margin : auto;
+width:75px;
+height:60px;
+overflow : hidden;
+float:left;
+}
+.intro img{
+max-width: 45px;
+border: none;
+
+}
+.intro a:hover img{
+margin-top: -60px;
+}
+
+.twitter{
+margin-left: 6%;
+margin-bottom: 5%;
+text-align : center;
+}
+
+.twitter a{
+margin : auto;
+width:75px;
+height:60px;
+overflow : hidden;
+float:left;
+}
+.twitter img{
+max-width: 45px;
+border: none;
+}
+.twitter a:hover img{
+margin-top: -60px;
+}
+
+
+.bbs{
+margin-left: 6%;
+margin-bottom: 5%;
+text-align : center;
+}
+
+.bbs a{
+margin : auto;
+width:75px;
+height:60px;
+overflow : hidden;
+float:left;
+
+}
+.bbs img{
+border: none;
+max-width: 45px;
+}
+.bbs a:hover img{
+margin-top: -60px;
+}
+
+.album{
+margin-left: 8%;
+text-align : center;
+margin-bottom: 5%;
+
+}
+
+.album a{
+width:75px;
+height:60px;
+overflow : hidden;
+float:left;
+}
+.album img{
+max-width: 45px;
+border: none;
+}
+.album a:hover img{
+margin-top: -60px;
+
+}
+
+
+.link{
+margin-left: 6%;
+text-align : center;
+margin-bottom: 5%;
+}
+
+.link a{
+margin : auto;
+width:75px;
+height:60px;
+overflow : hidden;
+float:left;
+}
+.link img{
+max-width: 45px;
+border: none;
+}
+.link a:hover img{
+margin-top: -60px;
+}
+
+
+.new{
+margin-left: 6%;
+text-align : center;
+margin-bottom: 5%;
+}
+.new a{
+margin : auto;
+width:75px;
+height:60px;
+overflow : hidden;
+float:left;
+}
+.new img{
+max-width: 45px;
+border: none;
+}
+.new a:hover img{
+margin-top: -60px;
+}
+
+/*
+.main{
+padding: 5% 2% 2% 2%;
+background-color: #FFFFFF;
+position: relative;
+margin-top: 10px;
+margin-left: 5%;
+margin-right: 5%;
+height: 50%;  
+overflow: auto;  
+border: solid 1px #5a3e50;
+}
+.main img{
+max-width: 200px;
+}
+*/
+.no_border {
+border-style:none;
+}
+
+
+a:link {
+color: #C2874F;
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+color: #C2874F;
+}
+a:hover {
+background-color:#f3dfd4;
+color: #C2874F;
+}
+
+table.aibo1pon {border-collapse:collapse;}
+td.left{border:10px solid #ffffff; font-size: 15px; width:300px; text-align:center; background-color: #ffebf5}
+td.right{border:50px solid #ffffff; font-size: 15px; width:1000px; text-align:left;}
+
+table.aibo1pon_2 {border-collapse:collapse;}
+td.left_2{border:3px solid #ffffff; font-size: 15px;
+ width:90px; text-align:center; background-color:#e7e7eb;}
+td.right_2{border:3px solid #ffffff; font-size: 15px; width:1000px; text-align:left;}
+
+table.aibo1pon_3 {border-collapse:collapse;}
+td.left_3{border:3px solid #ffffff; font-size: 15px; width:60px; height:30px; text-align:center; background-color:#e7e7eb;}
+td.right_3{border:3px solid #ffffff; font-size: 15px; width:180px; height:30px; text-align:left;}
+
+table.aibo1pon_4 {border-collapse:collapse;}
+td.left_4{border:3px solid #ffffff; font-size: 15px; width:120px; height:30px; text-align:center; background-color:#e7e7eb;}
+td.right_4{border:3px solid #ffffff; font-size: 15px; width:120px; text-align:left;}
+
+table.aibo1pon_5 {border-collapse:collapse;}
+td.left_5{border:3px solid #ffffff; font-size: 15px; width:130px; height:30px; text-align:center; background-color:#e7e7eb;}
+td.right_5{border:3px solid #ffffff; font-size: 15px; width:400px; text-align:left;}
+
+}
